@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="Villanueva.css">
+
+<div class="calculator">
+
+
+	<input type="text" id="myText" class="calculator-screen" value="" placeholder="INPUT" disabled/>
+	<input type="text" id="myResult" class="calculator-screen" value="" placeholder="RESULT" disabled/>
+  
+  <div class="calculator-keys">
+  
+	<button type="button" class="operator" onclick="myFunctionplus()">+</button>
+    <button type="button" class="operator" onclick="myFunctionminus()">-</button>
+    <button type="button" class="operator" onclick="myFunctiontimes()">&times;</button>
+    <button type="button" class="operator" onclick="myFunctiondivide()">/</button>
+    
+    <button type="button" class="operator" onclick="myOpenParentheses()">(</button>
+    <button type="button" class="operator" onclick="myCloseParentheses()">)</button>
+    <button type="button" class="operator" onclick="myFunctionExponent()">x<sup>y</sup></button>
+    <button type="button" class="operator" onclick="myFunctionPercent()">%</button>
+	
+
+    <button type="button" onclick="myFunction7()">7</button>
+    <button type="button" onclick="myFunction8()">8</button>
+    <button type="button" onclick="myFunction9()">9</button>
+
+
+    <button type="button" onclick="myFunction4()">4</button>
+    <button type="button" onclick="myFunction5()">5</button>
+    <button type="button" onclick="myFunction6()">6</button>
+
+ 
+    <button type="button" onclick="myFunction1()">1</button>
+    <button type="button" onclick="myFunction2()">2</button>
+    <button type="button" onclick="myFunction3()">3</button>
+	
+
+    <button type="button" onclick="myFunction0()">0</button>
+	
+	
+    <button type="button" class="decimal function" onclick="myFunctiondecimal()">.</button>
+    <button type="button" class="all-clear function" onclick="myFunctionAllClear()">AC</button>
+	<button type="button" class="delete" value="delete" onclick="myFunctionDelete()">&larr;</button>
+    <button type="button" class="equal-sign operator" onclick="getResult()">=</button>
+	
+<script src="Villanueva.js"></script>
+  </div>
+</div>
